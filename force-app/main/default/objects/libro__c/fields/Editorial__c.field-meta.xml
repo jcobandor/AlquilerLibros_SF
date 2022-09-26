@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editorial__c</fullName>
+    <externalId>false</externalId>
+    <label>Editorial</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Marruecos</fullName>
+                <default>false</default>
+                <label>Marruecos</label>
+            </value>
+            <value>
+                <fullName>Porrua</fullName>
+                <default>false</default>
+                <label>Porrua</label>
+            </value>
+            <value>
+                <fullName>FCE</fullName>
+                <default>false</default>
+                <label>FCE</label>
+            </value>
+            <value>
+                <fullName>Grijalva</fullName>
+                <default>false</default>
+                <label>Grijalva</label>
+            </value>
+            <value>
+                <fullName>Alfa &amp; Omega</fullName>
+                <default>false</default>
+                <label>Alfa &amp; Omega</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

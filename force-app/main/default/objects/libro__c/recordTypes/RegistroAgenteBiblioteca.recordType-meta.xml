@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RegistroAgenteBiblioteca</fullName>
+    <active>true</active>
+    <description>Tipo de registro para el agente de biblioteca.</description>
+    <label>Libros</label>
+    <picklistValues>
+        <picklist>Editorial__c</picklist>
+        <values>
+            <fullName>Alfa %26 Omega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grijalva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marruecos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Porrua</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Genero__c</picklist>
+        <values>
+            <fullName>Informática</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Narración</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Novela</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
