@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>AlquilerLibros</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Permission set de despliegue.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Prestamo__c.Estado__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>libro__c.Editorial__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>DeployInitPrestamoLibros</label>
+    <tabSettings>
+        <tab>Cliente</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Prestamo</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Prestamo__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>libro__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
