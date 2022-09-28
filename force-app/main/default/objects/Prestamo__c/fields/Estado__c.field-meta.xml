@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado__c</fullName>
+    <defaultValue>&quot;En Préstamo&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Estado</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En Préstamo</fullName>
+                <default>true</default>
+                <label>En Préstamo</label>
+            </value>
+            <value>
+                <fullName>Retrasado</fullName>
+                <default>false</default>
+                <label>Retrasado</label>
+            </value>
+            <value>
+                <fullName>Entregado</fullName>
+                <default>false</default>
+                <label>Entregado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
