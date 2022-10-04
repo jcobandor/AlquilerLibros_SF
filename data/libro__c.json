@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "libro__c",
+                "referenceId": "libro__cRef1"
+            },
+            "Editorial__c": "Marruecos",
+            "Genero__c": "Novela",
+            "Name": "El señor de las moscas"
+        }
+    ]
+}

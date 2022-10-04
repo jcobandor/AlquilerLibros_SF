@@ -1,0 +1,8 @@
+[
+    {
+        "sobject":"libro__c",
+        "saveRefs":true,
+        "resoveRefs":false,
+        "files":["libro__c.json"]
+    }
+]

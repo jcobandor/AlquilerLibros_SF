@@ -1,0 +1,12 @@
+:host{
+    max-width: 325px;
+    display: block;
+}
+p.resena{
+    min-height: 60px;
+}
+img{
+    height: 400px;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(221, 219, 218);
+}

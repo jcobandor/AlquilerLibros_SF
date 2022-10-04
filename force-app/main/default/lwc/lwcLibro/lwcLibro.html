@@ -1,0 +1,14 @@
+<template>
+    <lightning-card  title={libro.name} icon-name="custom:custom18" class="slds-align_absolute-center">
+        <lightning-button label="Ver detalles" slot="actions"></lightning-button>
+        <!--body start-->
+        <p class="lwcLibro slds-var-p-horizontal_small">{libro.resena}</p>
+        <img
+            class="slds-align_absolute-center slds-m-around_medium"
+            src={libro.imagen_url}
+            alt={libro.name}
+        />
+        <p class="lwcLibro slds-var-p-horizontal_small">{libro.editorial}</p>
+        <!--body end-->
+    </lightning-card>
+</template>
